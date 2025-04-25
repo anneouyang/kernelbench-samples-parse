@@ -27,22 +27,25 @@ document.addEventListener('DOMContentLoaded', function() {
                         // Apply color based on cell value
                         const cellValue = parseFloat(row[j].trim());
                         if (!isNaN(cellValue)) {
-                            if (cellValue === -1) {
-                                td.style.color = 'blue';
-                            } else if (cellValue === -2) {
-                                td.style.color = 'lightblue';
-                            }
 
                             // Highlight the bigger number in adjacent even-odd column pairs as red
-                            if (j % 2 === 1) { // Compare only when j is odd (1, 3, 5, ...)
+                            if (j > 1 && j % 2 === 0) { // Skip the first column and compare only when j is even (2, 4, 6, ...)
                                 const prevCellValue = parseFloat(row[j - 1].trim());
                                 if (!isNaN(prevCellValue)) {
                                     if (cellValue > prevCellValue) {
                                         td.style.color = 'red';
+                                        tr.children[j - 1].style.color = 'green';
                                     } else if (cellValue < prevCellValue) {
                                         tr.children[j - 1].style.color = 'red';
+                                        td.style.color = 'green';
                                     }
                                 }
+                            }
+
+                            if (cellValue === -1) {
+                                td.style.color = 'lightblue';
+                            } else if (cellValue === -2) {
+                                td.style.color = 'lavender';
                             }
                         }
 
