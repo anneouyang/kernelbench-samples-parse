@@ -1,0 +1,1971 @@
+{
+    "95": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293588.4600427,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([]), got torch.Size([1])"
+    },
+    "65": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967077.567988,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "17.049883",
+            "17.050774",
+            "17.051043",
+            "17.046961",
+            "17.055059"
+        ],
+        "max_difference": [
+            "119.020828",
+            "122.597488",
+            "121.069778",
+            "119.750923",
+            "121.493912"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "25": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966738.9767697,
+        "avg_runtime": 0.0186,
+        "runtime_stats": {
+            "max": 0.0316,
+            "min": 0.0174,
+            "std": 0.00149,
+            "mean": 0.0186,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "72": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.7831018,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "3.987282",
+            "100949.062500",
+            "10201478144.000000",
+            "1026823467040768.000000",
+            "103542100703200673792.000000"
+        ],
+        "max_difference": [
+            "150.355286",
+            "53535708.000000",
+            "5052055420928.000000",
+            "579830961600987136.000000",
+            "59429505186380692586496.000000"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "77": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.8266723,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.400565",
+            "0.400606",
+            "0.400659",
+            "0.401091",
+            "0.400523"
+        ],
+        "max_difference": [
+            "140.966644",
+            "146.253143",
+            "154.852783",
+            "139.661316",
+            "151.064346"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "89": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293583.9828079,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "31.716225",
+            "36.637268",
+            "33.586258",
+            "37.217125",
+            "33.281414"
+        ],
+        "max_difference": [
+            "183.496323",
+            "189.936157",
+            "168.458344",
+            "175.904312",
+            "180.030685"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "19": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.512174,
+        "avg_runtime": 0.02,
+        "runtime_stats": {
+            "max": 0.0355,
+            "min": 0.0184,
+            "std": 0.00218,
+            "mean": 0.02,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "76": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.81912,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.495059",
+            "2.510731",
+            "2.493626",
+            "2.474173",
+            "2.479175"
+        ],
+        "max_difference": [
+            "20.026812",
+            "17.383156",
+            "19.413773",
+            "18.593584",
+            "18.116459"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "5": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966696.9783475,
+        "avg_runtime": 1.19,
+        "runtime_stats": {
+            "max": 1.2,
+            "min": 1.18,
+            "std": 0.00481,
+            "mean": 1.19,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "83": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967158.7194195,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.137943",
+            "1.138574",
+            "1.138024",
+            "1.138950",
+            "1.138300"
+        ],
+        "max_difference": [
+            "12.501539",
+            "12.930455",
+            "13.608245",
+            "12.429577",
+            "12.735931"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "39": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.8847497,
+        "avg_runtime": 0.65,
+        "runtime_stats": {
+            "max": 0.666,
+            "min": 0.647,
+            "std": 0.00314,
+            "mean": 0.65,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "98": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293588.9715238,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.000934",
+            "1.997390",
+            "1.999755",
+            "1.997769",
+            "2.003857"
+        ],
+        "max_difference": [
+            "2.000934",
+            "1.997390",
+            "1.999755",
+            "1.997769",
+            "2.003857"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "16": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.495309,
+        "avg_runtime": 3.52,
+        "runtime_stats": {
+            "max": 3.6,
+            "min": 3.09,
+            "std": 0.137,
+            "mean": 3.52,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "87": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967162.3699884,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.506469",
+            "1.507023",
+            "1.507433",
+            "1.508335",
+            "1.507387"
+        ],
+        "max_difference": [
+            "17.156569",
+            "15.796225",
+            "16.530861",
+            "15.624568",
+            "17.018555"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "58": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967072.2761946,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "30.261789",
+            "30.262033",
+            "30.244646",
+            "30.265327",
+            "30.257132"
+        ],
+        "max_difference": [
+            "319.986694",
+            "326.489136",
+            "323.382568",
+            "295.360718",
+            "300.446869"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "50": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967066.929301,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 256]), got torch.Size([16, 1, 256])"
+    },
+    "91": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293583.998955,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "34.047577",
+            "52.904526",
+            "52.956017",
+            "49.224995",
+            "46.438171"
+        ],
+        "max_difference": [
+            "183.370544",
+            "304.631744",
+            "265.658203",
+            "316.808533",
+            "248.311844"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "23": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966725.9081328,
+        "avg_runtime": 0.0345,
+        "runtime_stats": {
+            "max": 0.0399,
+            "min": 0.0338,
+            "std": 0.000957,
+            "mean": 0.0345,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "56": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967068.133668,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "5.462375",
+            "5.465682",
+            "5.466916",
+            "5.468223",
+            "5.468463"
+        ],
+        "max_difference": [
+            "42.987026",
+            "42.437225",
+            "45.488796",
+            "39.356579",
+            "39.781418"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "66": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967080.6383588,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "14.334613",
+            "14.337100",
+            "14.336764",
+            "14.334311",
+            "14.335857"
+        ],
+        "max_difference": [
+            "111.485695",
+            "111.659073",
+            "113.402382",
+            "109.527122",
+            "111.708023"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "80": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967158.6883879,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "5.439488",
+            "5.441325",
+            "5.443078",
+            "5.446096",
+            "5.443336"
+        ],
+        "max_difference": [
+            "42.746647",
+            "45.708824",
+            "41.165665",
+            "40.317047",
+            "44.009880"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "67": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967080.6508512,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.497135",
+            "2.501153",
+            "2.498775",
+            "2.486393",
+            "2.490734"
+        ],
+        "max_difference": [
+            "20.667246",
+            "19.744308",
+            "18.468012",
+            "18.273836",
+            "19.411961"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "38": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.8758268,
+        "avg_runtime": 0.0243,
+        "runtime_stats": {
+            "max": 0.0297,
+            "min": 0.0236,
+            "std": 0.000786,
+            "mean": 0.0243,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "57": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967071.8933587,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.337528",
+            "13.340231",
+            "13.336185",
+            "13.337294",
+            "13.338438"
+        ],
+        "max_difference": [
+            "100.896690",
+            "94.891479",
+            "97.085991",
+            "96.790359",
+            "99.999924"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "51": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967066.989293,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 256]), got torch.Size([16])"
+    },
+    "27": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966742.9325879,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'selu'"
+    },
+    "40": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.8927941,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "11.964624",
+            "11.964411",
+            "11.964536",
+            "11.964343",
+            "11.963999"
+        ],
+        "max_difference": [
+            "85.481171",
+            "79.875565",
+            "84.996025",
+            "83.908791",
+            "80.090393"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "7": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966697.393233,
+        "avg_runtime": 5.15,
+        "runtime_stats": {
+            "max": 5.23,
+            "min": 4.77,
+            "std": 0.105,
+            "mean": 5.15,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "12": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966716.082848,
+        "avg_runtime": 1.05,
+        "runtime_stats": {
+            "max": 1.11,
+            "min": 1.03,
+            "std": 0.0201,
+            "mean": 1.05,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "45": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967062.333176,
+        "avg_runtime": 0.453,
+        "runtime_stats": {
+            "max": 0.465,
+            "min": 0.45,
+            "std": 0.00194,
+            "mean": 0.453,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "24": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966738.9647987,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'log_softmax'"
+    },
+    "69": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967095.598265,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "15.234349",
+            "15.192952",
+            "15.229354",
+            "15.245904",
+            "15.267397"
+        ],
+        "max_difference": [
+            "113.810707",
+            "102.957291",
+            "102.764778",
+            "109.981255",
+            "105.703972"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "73": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.7960758,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 27, 59, 59]), got torch.Size([16, 64, 36, 68, 68])"
+    },
+    "86": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967162.1494207,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 254, 254]), got torch.Size([16, 64, 256, 256])"
+    },
+    "28": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966742.9467537,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.025986",
+            "0.025874",
+            "0.025930",
+            "0.025955",
+            "0.025951"
+        ],
+        "max_difference": [
+            "0.083333",
+            "0.083332",
+            "0.083329",
+            "0.083333",
+            "0.083328"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "84": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967158.7269318,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.752165",
+            "2.754433",
+            "2.754136",
+            "2.755440",
+            "2.756124"
+        ],
+        "max_difference": [
+            "20.294226",
+            "19.745665",
+            "19.260719",
+            "20.097033",
+            "20.636744"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "21": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.5234723,
+        "avg_runtime": 0.0189,
+        "runtime_stats": {
+            "max": 0.0309,
+            "min": 0.0174,
+            "std": 0.0015,
+            "mean": 0.0189,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "34": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966748.7735498,
+        "avg_runtime": 1.54,
+        "runtime_stats": {
+            "max": 1.55,
+            "min": 1.53,
+            "std": 0.00334,
+            "mean": 1.54,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "99": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293589.1769543,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.042921"
+        ],
+        "max_difference": [
+            "1.042921"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(4 / 5)"
+    },
+    "92": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293584.0065787,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([127, 4001]), got torch.Size([128, 4000])"
+    },
+    "22": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966725.8218694,
+        "avg_runtime": 0.0201,
+        "runtime_stats": {
+            "max": 0.0317,
+            "min": 0.0185,
+            "std": 0.00199,
+            "mean": 0.0201,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "32": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966746.642778,
+        "avg_runtime": -1.0,
+        "runtime_error": "hardtanh_cuda(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: torch.Tensor, arg1: float, arg2: float) -> torch.Tensor\n\nInvoked with: tensor([[ 0.2656, ...",
+        "runtime_stats": {}
+    },
+    "96": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293588.6347122,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "377498.968750",
+            "378181.406250",
+            "377538.656250",
+            "377212.093750",
+            "377750.843750"
+        ],
+        "max_difference": [
+            "377498.968750",
+            "378181.406250",
+            "377538.656250",
+            "377212.093750",
+            "377750.843750"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "18": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.5067546,
+        "avg_runtime": 13.2,
+        "runtime_stats": {
+            "max": 13.3,
+            "min": 13.2,
+            "std": 0.0113,
+            "mean": 13.2,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "59": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967072.2890813,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 254, 254, 10]), got torch.Size([16, 64, 256, 256, 10])"
+    },
+    "13": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966716.0921135,
+        "avg_runtime": 27.9,
+        "runtime_stats": {
+            "max": 28.7,
+            "min": 27.3,
+            "std": 0.396,
+            "mean": 27.9,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "62": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967073.7836366,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "5.462348",
+            "5.464685",
+            "5.465846",
+            "5.467821",
+            "5.465224"
+        ],
+        "max_difference": [
+            "43.901508",
+            "41.459499",
+            "48.310791",
+            "40.953815",
+            "44.183105"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "4": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966696.9661288,
+        "avg_runtime": 13.8,
+        "runtime_stats": {
+            "max": 13.9,
+            "min": 13.8,
+            "std": 0.0133,
+            "mean": 13.8,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "60": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967073.7630475,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "14.333547",
+            "14.337151",
+            "14.339679",
+            "14.339396",
+            "14.342167"
+        ],
+        "max_difference": [
+            "117.589699",
+            "110.341721",
+            "111.760735",
+            "113.182976",
+            "117.615280"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "46": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967063.6651103,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.005887",
+            "0.005880",
+            "0.005881",
+            "0.005884",
+            "0.005892"
+        ],
+        "max_difference": [
+            "0.694838",
+            "0.825283",
+            "0.872502",
+            "0.817359",
+            "0.815633"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "90": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293583.9910426,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.000957",
+            "0.001517",
+            "0.001317",
+            "0.001346",
+            "0.001892"
+        ],
+        "max_difference": [
+            "10.191467",
+            "10.191081",
+            "9.676963",
+            "9.064365",
+            "24.919760"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "71": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967099.5526369,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.399857",
+            "13.401001",
+            "13.406940",
+            "13.400407",
+            "13.403863"
+        ],
+        "max_difference": [
+            "95.304298",
+            "102.850586",
+            "94.008209",
+            "98.203232",
+            "91.789986"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "85": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967162.0915687,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "3.235646",
+            "3.240226",
+            "3.238803",
+            "3.238328",
+            "3.237058"
+        ],
+        "max_difference": [
+            "23.516273",
+            "25.255770",
+            "23.969065",
+            "24.223583",
+            "23.705578"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "1": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966695.0588894,
+        "avg_runtime": 3.43,
+        "runtime_stats": {
+            "max": 3.49,
+            "min": 3.08,
+            "std": 0.116,
+            "mean": 3.43,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "53": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967067.1024606,
+        "avg_runtime": 0.0201,
+        "runtime_stats": {
+            "max": 0.0461,
+            "min": 0.0194,
+            "std": 0.00283,
+            "mean": 0.0201,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "33": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966748.3229265,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.748087",
+            "1.057901",
+            "1.057943",
+            "1.057895",
+            "1.057835"
+        ],
+        "max_difference": [
+            "5.352348",
+            "8.095928",
+            "7.938345",
+            "7.875815",
+            "7.994055"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "41": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.900724,
+        "avg_runtime": -1.0,
+        "other_error": "error: 'NoneType' object is not callable",
+        "runtime_stats": {}
+    },
+    "54": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967068.1118708,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "7.372514",
+            "7.374073",
+            "7.374458",
+            "7.374712",
+            "7.376253"
+        ],
+        "max_difference": [
+            "61.275650",
+            "58.880005",
+            "58.652840",
+            "59.463924",
+            "59.391541"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "31": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966746.518373,
+        "avg_runtime": 0.0191,
+        "runtime_stats": {
+            "max": 0.0328,
+            "min": 0.0176,
+            "std": 0.00152,
+            "mean": 0.0191,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "78": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967116.4456997,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "17.448299",
+            "17.450146",
+            "17.453691",
+            "17.452553",
+            "17.458807"
+        ],
+        "max_difference": [
+            "121.360352",
+            "122.216133",
+            "125.737793",
+            "128.730026",
+            "127.076454"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "55": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967068.124792,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "4.265623",
+            "4.267474",
+            "4.268531",
+            "4.270218",
+            "4.269597"
+        ],
+        "max_difference": [
+            "33.866261",
+            "34.715580",
+            "34.572289",
+            "34.133579",
+            "33.712048"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "8": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966709.8630257,
+        "avg_runtime": 73.7,
+        "runtime_stats": {
+            "max": 77.1,
+            "min": 69.1,
+            "std": 1.85,
+            "mean": 73.7,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "93": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293584.0133002,
+        "avg_runtime": 0.979,
+        "runtime_stats": {
+            "max": 0.994,
+            "min": 0.968,
+            "std": 0.0046,
+            "mean": 0.979,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "44": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967060.3682952,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.003530",
+            "0.003651",
+            "0.003711",
+            "0.003721",
+            "0.003623"
+        ],
+        "max_difference": [
+            "0.576682",
+            "0.532031",
+            "0.506885",
+            "0.487250",
+            "0.512610"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "10": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966709.8848999,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "36.096313",
+            "36.088326",
+            "36.079266",
+            "36.063530",
+            "36.076805"
+        ],
+        "max_difference": [
+            "238.025558",
+            "242.445114",
+            "238.206909",
+            "242.699982",
+            "244.654694"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "20": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.5176814,
+        "avg_runtime": 0.019,
+        "runtime_stats": {
+            "max": 0.0348,
+            "min": 0.0174,
+            "std": 0.00242,
+            "mean": 0.019,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "94": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293584.019881,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([]), got torch.Size([1])"
+    },
+    "15": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.48406,
+        "avg_runtime": 9.59,
+        "runtime_stats": {
+            "max": 10.1,
+            "min": 8.45,
+            "std": 0.245,
+            "mean": 9.59,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "61": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967073.7757978,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "6.449089",
+            "6.453993",
+            "6.453593",
+            "6.456545",
+            "6.455801"
+        ],
+        "max_difference": [
+            "52.920692",
+            "51.474934",
+            "55.390160",
+            "51.613255",
+            "59.651733"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "64": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967077.0990279,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "10.991033",
+            "10.783411",
+            "11.073498",
+            "10.829994",
+            "10.920448"
+        ],
+        "max_difference": [
+            "50.792683",
+            "51.993286",
+            "60.682888",
+            "57.579491",
+            "57.403893"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "29": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966746.294938,
+        "avg_runtime": 0.0192,
+        "runtime_stats": {
+            "max": 0.0379,
+            "min": 0.0183,
+            "std": 0.00203,
+            "mean": 0.0192,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "37": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.8638506,
+        "avg_runtime": 1.19,
+        "runtime_stats": {
+            "max": 1.2,
+            "min": 1.18,
+            "std": 0.00453,
+            "mean": 1.19,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "52": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967066.9997873,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 256]), got torch.Size([16])"
+    },
+    "81": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967158.7016363,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.060760",
+            "0.060713",
+            "0.060775",
+            "0.060742",
+            "0.060749"
+        ],
+        "max_difference": [
+            "79.486549",
+            "79.814552",
+            "85.346519",
+            "83.801567",
+            "79.013878"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "17": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966722.5012057,
+        "avg_runtime": 13.7,
+        "runtime_stats": {
+            "max": 13.8,
+            "min": 13.7,
+            "std": 0.0118,
+            "mean": 13.7,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "3": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966695.292514,
+        "avg_runtime": 0.969,
+        "runtime_stats": {
+            "max": 1.11,
+            "min": 0.876,
+            "std": 0.0769,
+            "mean": 0.969,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "36": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.556135,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.056521",
+            "0.056543",
+            "0.056567",
+            "0.056438",
+            "0.056518"
+        ],
+        "max_difference": [
+            "1.442123",
+            "1.664273",
+            "1.267525",
+            "1.502219",
+            "1.502248"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "47": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967063.6776068,
+        "avg_runtime": 0.0228,
+        "runtime_stats": {
+            "max": 0.0347,
+            "min": 0.0215,
+            "std": 0.00174,
+            "mean": 0.0228,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "70": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967095.6062603,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 16, 18, 34, 66]), got torch.Size([16, 16, 16, 32, 64])"
+    },
+    "74": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.80411,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.890798",
+            "2.892186",
+            "2.882926",
+            "2.874905",
+            "2.867172"
+        ],
+        "max_difference": [
+            "20.832439",
+            "24.642988",
+            "20.112654",
+            "21.679220",
+            "19.326675"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "79": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967116.459422,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "3.917825",
+            "3.906693",
+            "3.917417",
+            "3.886799",
+            "3.907035"
+        ],
+        "max_difference": [
+            "47.599701",
+            "46.826393",
+            "48.341679",
+            "49.399456",
+            "45.784698"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "26": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966738.9847424,
+        "avg_runtime": 0.0194,
+        "runtime_stats": {
+            "max": 0.0361,
+            "min": 0.0184,
+            "std": 0.00224,
+            "mean": 0.0194,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "30": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966746.5086107,
+        "avg_runtime": 0.02,
+        "runtime_stats": {
+            "max": 0.0319,
+            "min": 0.0185,
+            "std": 0.00198,
+            "mean": 0.02,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "43": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967059.645758,
+        "avg_runtime": -1.0,
+        "other_error": "error: 'NoneType' object is not callable",
+        "runtime_stats": {}
+    },
+    "9": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966709.8764284,
+        "avg_runtime": 3.34,
+        "runtime_stats": {
+            "max": 3.39,
+            "min": 3.26,
+            "std": 0.0399,
+            "mean": 3.34,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "100": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1737682267.64339,
+        "avg_runtime": 0.0311,
+        "runtime_stats": {
+            "max": 0.0625,
+            "min": 0.0266,
+            "std": 0.00551,
+            "mean": 0.0311,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "11": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966716.0697033,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "12.773276",
+            "12.757879",
+            "12.767090",
+            "12.771968",
+            "12.714576"
+        ],
+        "max_difference": [
+            "120.650558",
+            "113.530869",
+            "121.348755",
+            "116.897675",
+            "115.029068"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "75": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967110.8117287,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "3.796558",
+            "747167.812500",
+            "152458428416.000000",
+            "30776178717491200.000000",
+            "6179752151435014307840.000000"
+        ],
+        "max_difference": [
+            "78.383919",
+            "17585450.000000",
+            "4372153499648.000000",
+            "1104449603215818752.000000",
+            "257603700928974214397952.000000"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "88": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293583.9695196,
+        "avg_runtime": 0.0805,
+        "runtime_stats": {
+            "max": 0.086,
+            "min": 0.0797,
+            "std": 0.000834,
+            "mean": 0.0805,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "63": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967073.7911096,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "4.265323",
+            "4.266977",
+            "4.267131",
+            "4.270156",
+            "4.268147"
+        ],
+        "max_difference": [
+            "37.308365",
+            "37.764084",
+            "33.122967",
+            "35.208881",
+            "34.277290"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "6": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966697.3820686,
+        "avg_runtime": 5.82,
+        "runtime_stats": {
+            "max": 5.84,
+            "min": 5.81,
+            "std": 0.0055,
+            "mean": 5.82,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "48": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967063.6855242,
+        "avg_runtime": 0.0202,
+        "runtime_stats": {
+            "max": 0.0297,
+            "min": 0.0195,
+            "std": 0.00114,
+            "mean": 0.0202,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "49": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967063.6932256,
+        "avg_runtime": 0.0195,
+        "runtime_stats": {
+            "max": 0.0307,
+            "min": 0.0184,
+            "std": 0.00152,
+            "mean": 0.0195,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "42": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967056.9081936,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.028982",
+            "0.028990",
+            "0.029077",
+            "0.028937",
+            "0.028905"
+        ],
+        "max_difference": [
+            "5.552091",
+            "5.445742",
+            "5.514474",
+            "4.913363",
+            "4.965207"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "82": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967158.711546,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "2.750401",
+            "2.751601",
+            "2.753896",
+            "2.752954",
+            "2.753386"
+        ],
+        "max_difference": [
+            "20.062601",
+            "20.421080",
+            "19.813238",
+            "20.260685",
+            "21.708967"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "14": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966716.1011524,
+        "avg_runtime": 5.5,
+        "runtime_stats": {
+            "max": 5.6,
+            "min": 4.77,
+            "std": 0.175,
+            "mean": 5.5,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "68": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730967095.5864444,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "32.174839",
+            "32.175690",
+            "32.174015",
+            "32.168785",
+            "32.177933"
+        ],
+        "max_difference": [
+            "297.696472",
+            "286.457153",
+            "298.165588",
+            "294.471436",
+            "311.842896"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "97": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731293588.8126807,
+        "avg_runtime": 0.443,
+        "runtime_stats": {
+            "max": 0.602,
+            "min": 0.436,
+            "std": 0.0184,
+            "mean": 0.443,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "2": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730966695.1286013,
+        "avg_runtime": 3.39,
+        "runtime_stats": {
+            "max": 3.44,
+            "min": 3.09,
+            "std": 0.0927,
+            "mean": 3.39,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    }
+}

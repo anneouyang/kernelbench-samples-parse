@@ -1,0 +1,1473 @@
+{
+    "56": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0524,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "37": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.8230922,
+        "avg_runtime": 1.55,
+        "runtime_stats": {
+            "max": 1.57,
+            "min": 1.55,
+            "std": 0.00544,
+            "mean": 1.55,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "24": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6995807,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "inf",
+            "inf",
+            "inf",
+            "inf",
+            "inf"
+        ],
+        "max_difference": [
+            "inf",
+            "inf",
+            "inf",
+            "inf",
+            "inf"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "28": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.2363746,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.025986",
+            "0.025874",
+            "0.025930",
+            "0.025955",
+            "0.025951"
+        ],
+        "max_difference": [
+            "0.083333",
+            "0.083332",
+            "0.083329",
+            "0.083333",
+            "0.083328"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "20": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6696095,
+        "avg_runtime": 0.0195,
+        "runtime_stats": {
+            "max": 0.0329,
+            "min": 0.0184,
+            "std": 0.00153,
+            "mean": 0.0195,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "4": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793590.6338232,
+        "avg_runtime": 13.8,
+        "runtime_stats": {
+            "max": 14.4,
+            "min": 13.8,
+            "std": 0.0558,
+            "mean": 13.8,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "94": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309114.2494106,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'mse'"
+    },
+    "51": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0008185,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "76": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.6911693,
+        "avg_runtime": -1.0,
+        "runtime_error": "'ModelNew' object has no attribute 'stride'",
+        "runtime_stats": {}
+    },
+    "18": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6546175,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([1024, 2048]), got torch.Size([4096, 2048])"
+    },
+    "67": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793695.4016297,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "62": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793680.317795,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 254, 252]), got torch.Size([16, 64, 256, 256])"
+    },
+    "46": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793650.0268111,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 32, 32, 32, 32]), got torch.Size([16, 32, 31, 31, 31])"
+    },
+    "89": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309100.9986567,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "31.725471",
+            "36.644798",
+            "33.572330",
+            "37.203571",
+            "33.278355"
+        ],
+        "max_difference": [
+            "181.649628",
+            "189.936157",
+            "168.458344",
+            "175.904312",
+            "180.030701"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "1": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793589.4041944,
+        "avg_runtime": 13.0,
+        "runtime_stats": {
+            "max": 13.1,
+            "min": 13.0,
+            "std": 0.00951,
+            "mean": 13.0,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "98": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309118.7747934,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "nan",
+            "nan",
+            "nan",
+            "nan",
+            "nan"
+        ],
+        "max_difference": [
+            "nan",
+            "nan",
+            "nan",
+            "nan",
+            "nan"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "58": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793679.9426627,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "92": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309101.0218806,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([127, 4001]), got torch.Size([128, 4000])"
+    },
+    "21": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6766858,
+        "avg_runtime": 0.0181,
+        "runtime_stats": {
+            "max": 0.0328,
+            "min": 0.0164,
+            "std": 0.00223,
+            "mean": 0.0181,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "97": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309118.7412612,
+        "avg_runtime": 0.451,
+        "runtime_stats": {
+            "max": 0.461,
+            "min": 0.448,
+            "std": 0.00222,
+            "mean": 0.451,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "43": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793649.9941459,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 32, 30, 30, 30]), got torch.Size([16, 32, 32, 32, 32])"
+    },
+    "86": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.659589,
+        "avg_runtime": -1.0,
+        "runtime_error": "depthwise_conv_cuda(): incompatible function arguments. The following argument types are supported:\n    1. (arg0: torch.Tensor, arg1: torch.Tensor, arg2: int, arg3: int, arg4: int, arg5: int) -> to...",
+        "runtime_stats": {}
+    },
+    "87": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.67153,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.506469",
+            "1.507023",
+            "1.507433",
+            "1.508335",
+            "1.507387"
+        ],
+        "max_difference": [
+            "17.156569",
+            "15.796225",
+            "16.530861",
+            "15.624568",
+            "17.018555"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "30": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.5280619,
+        "avg_runtime": 0.0189,
+        "runtime_stats": {
+            "max": 0.0349,
+            "min": 0.0173,
+            "std": 0.00218,
+            "mean": 0.0189,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "22": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6842732,
+        "avg_runtime": 0.0193,
+        "runtime_stats": {
+            "max": 0.032,
+            "min": 0.0177,
+            "std": 0.00179,
+            "mean": 0.0193,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "41": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793649.0468237,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "160975312.000000",
+            "160975312.000000",
+            "160975312.000000",
+            "160975312.000000",
+            "160975312.000000"
+        ],
+        "max_difference": [
+            "10000000000.000000",
+            "10000000000.000000",
+            "10000000000.000000",
+            "10000000000.000000",
+            "10000000000.000000"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "63": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793680.3238173,
+        "avg_runtime": -1.0,
+        "runtime_error": "name 'padding' is not defined",
+        "runtime_stats": {}
+    },
+    "70": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793706.7157905,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 16, 18, 34, 66]), got torch.Size([16, 16, 16, 32, 64])"
+    },
+    "32": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.62082,
+        "avg_runtime": 0.0189,
+        "runtime_stats": {
+            "max": 0.0369,
+            "min": 0.0174,
+            "std": 0.00198,
+            "mean": 0.0189,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "8": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793601.201406,
+        "avg_runtime": 109.0,
+        "runtime_stats": {
+            "max": 112.0,
+            "min": 107.0,
+            "std": 0.733,
+            "mean": 109.0,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "75": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.676995,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "81": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793715.8900285,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 318, 638]), got torch.Size([16, 64, 320, 640])"
+    },
+    "47": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793660.45176,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'sum_reduction'"
+    },
+    "38": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.8331583,
+        "avg_runtime": 1.48,
+        "runtime_stats": {
+            "max": 1.5,
+            "min": 1.48,
+            "std": 0.00564,
+            "mean": 1.48,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "61": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793680.2687147,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "17": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.641406,
+        "avg_runtime": 13.7,
+        "runtime_stats": {
+            "max": 13.8,
+            "min": 13.7,
+            "std": 0.00882,
+            "mean": 13.7,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "84": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.3228707,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "71": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793706.7232797,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "16": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.410128,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([1024, 2048]), got torch.Size([4096, 2048])"
+    },
+    "99": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309118.7815921,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "44": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793650.0073822,
+        "avg_runtime": -1.0,
+        "runtime_error": "'ModelNew' object has no attribute 'kernel_size'",
+        "runtime_stats": {}
+    },
+    "11": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.3556652,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "12.746763",
+            "12.731003",
+            "12.740402",
+            "12.745712",
+            "12.687617"
+        ],
+        "max_difference": [
+            "101.555153",
+            "102.419273",
+            "103.600449",
+            "109.569115",
+            "106.214493"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "39": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.842996,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "54": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0321567,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.879161",
+            "0.872974",
+            "0.879125",
+            "0.884221",
+            "0.885703"
+        ],
+        "max_difference": [
+            "56.937077",
+            "55.588093",
+            "51.101585",
+            "56.088215",
+            "59.714870"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "82": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.2648726,
+        "avg_runtime": -1.0,
+        "runtime_error": "CUDA error: invalid configuration argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUD...",
+        "runtime_stats": {}
+    },
+    "31": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.5401719,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.500282",
+            "0.500141",
+            "0.501358",
+            "0.500614",
+            "0.499535"
+        ],
+        "max_difference": [
+            "1.000000",
+            "1.000000",
+            "1.000000",
+            "1.000000",
+            "1.000000"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "65": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793695.01045,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "35": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.8012316,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'group_norm'"
+    },
+    "42": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793649.3666022,
+        "avg_runtime": -1.0,
+        "runtime_error": "'ModelNew' object has no attribute 'kernel_size'",
+        "runtime_stats": {}
+    },
+    "90": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309101.0065289,
+        "avg_runtime": 0.699,
+        "runtime_stats": {
+            "max": 0.712,
+            "min": 0.691,
+            "std": 0.00422,
+            "mean": 0.699,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "80": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.8938456,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "74": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.2585692,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "57": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793679.5298932,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "7": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793591.855238,
+        "avg_runtime": 15.1,
+        "runtime_stats": {
+            "max": 15.1,
+            "min": 15.0,
+            "std": 0.0108,
+            "mean": 15.1,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "3": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793589.8212073,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "48": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793660.5639908,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'mean_reduction'"
+    },
+    "50": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793675.9905188,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'product_reduction'"
+    },
+    "100": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1737682649.1452074,
+        "avg_runtime": 0.0287,
+        "runtime_stats": {
+            "max": 0.0471,
+            "min": 0.0268,
+            "std": 0.00219,
+            "mean": 0.0287,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "26": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.1561131,
+        "avg_runtime": 0.0724,
+        "runtime_stats": {
+            "max": 0.086,
+            "min": 0.0707,
+            "std": 0.00243,
+            "mean": 0.0724,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "23": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.692482,
+        "avg_runtime": 2.35,
+        "runtime_stats": {
+            "max": 2.36,
+            "min": 2.35,
+            "std": 0.00187,
+            "mean": 2.35,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "78": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.7334633,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 128, 256]), got torch.Size([16, 64, 130, 260])"
+    },
+    "64": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793691.2751544,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'conv1d_transpose'"
+    },
+    "83": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.3127296,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.231451",
+            "1.215437",
+            "1.324853",
+            "1.367293",
+            "1.288853"
+        ],
+        "max_difference": [
+            "12.143867",
+            "11.011767",
+            "13.066231",
+            "10.557065",
+            "10.661320"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "91": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309101.0141597,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "33.940189",
+            "36.195900",
+            "37.032391",
+            "34.509205",
+            "32.731789"
+        ],
+        "max_difference": [
+            "192.498627",
+            "182.470795",
+            "212.161774",
+            "196.761383",
+            "189.573868"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "93": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309101.0292654,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "24.656303",
+            "24.996618",
+            "23.797985",
+            "25.237429",
+            "23.908297"
+        ],
+        "max_difference": [
+            "129.913925",
+            "129.136383",
+            "153.150391",
+            "122.039246",
+            "132.812927"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "36": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.8123288,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.788513",
+            "0.788499",
+            "0.788514",
+            "0.788489",
+            "0.788478"
+        ],
+        "max_difference": [
+            "4.934264",
+            "4.999161",
+            "4.998926",
+            "4.932496",
+            "4.904112"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "72": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793706.7299955,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'conv_transpose3d'"
+    },
+    "9": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793605.313049,
+        "avg_runtime": 5.72,
+        "runtime_stats": {
+            "max": 5.77,
+            "min": 5.59,
+            "std": 0.036,
+            "mean": 5.72,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "49": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793675.9760454,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'max_reduction'"
+    },
+    "69": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793706.7032228,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'conv_transpose2d'"
+    },
+    "68": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793696.0016782,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "96": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309118.7310276,
+        "avg_runtime": 0.0308,
+        "runtime_stats": {
+            "max": 0.0502,
+            "min": 0.0287,
+            "std": 0.00277,
+            "mean": 0.0308,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "29": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.386773,
+        "avg_runtime": 0.0193,
+        "runtime_stats": {
+            "max": 0.031,
+            "min": 0.0184,
+            "std": 0.00142,
+            "mean": 0.0193,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "19": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793624.6626313,
+        "avg_runtime": 0.0198,
+        "runtime_stats": {
+            "max": 0.0328,
+            "min": 0.0185,
+            "std": 0.00169,
+            "mean": 0.0198,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "15": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.3996875,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.614381",
+            "13.611748",
+            "13.614278",
+            "13.612123",
+            "13.616609"
+        ],
+        "max_difference": [
+            "277.032104",
+            "288.201965",
+            "314.341370",
+            "306.833130",
+            "310.460632"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "79": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.7424204,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "13": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.3795233,
+        "avg_runtime": 103.0,
+        "runtime_stats": {
+            "max": 103.0,
+            "min": 103.0,
+            "std": 0.0154,
+            "mean": 103.0,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "12": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.3695474,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "45": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793650.0171316,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "53": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0217052,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 256]), got torch.Size([16])"
+    },
+    "95": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309118.275367,
+        "avg_runtime": -1.0,
+        "runtime_error": "expected scalar type Int but found Long",
+        "runtime_stats": {}
+    },
+    "66": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793695.388294,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 14, 252, 250]), got torch.Size([16, 64, 16, 256, 256])"
+    },
+    "33": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793632.2600696,
+        "avg_runtime": -1.0,
+        "runtime_error": "'BatchNorm2d' object has no attribute 'saved_mean'",
+        "runtime_stats": {}
+    },
+    "10": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793605.6197393,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "36.060623",
+            "36.053371",
+            "36.043381",
+            "36.027321",
+            "36.042065"
+        ],
+        "max_difference": [
+            "238.025558",
+            "242.445114",
+            "238.206909",
+            "242.699982",
+            "244.654694"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "2": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793589.8076892,
+        "avg_runtime": 13.1,
+        "runtime_stats": {
+            "max": 13.4,
+            "min": 13.0,
+            "std": 0.0749,
+            "mean": 13.1,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "52": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0112236,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 256]), got torch.Size([16])"
+    },
+    "40": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.901626,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'layer_norm'"
+    },
+    "55": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793676.0422778,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "88": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731309100.9870863,
+        "avg_runtime": 0.0309,
+        "runtime_stats": {
+            "max": 0.04,
+            "min": 0.0297,
+            "std": 0.00113,
+            "mean": 0.0309,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "6": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793591.8430154,
+        "avg_runtime": 15.1,
+        "runtime_stats": {
+            "max": 15.1,
+            "min": 15.1,
+            "std": 0.00689,
+            "mean": 15.1,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "25": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.0765665,
+        "avg_runtime": 0.0199,
+        "runtime_stats": {
+            "max": 0.0367,
+            "min": 0.0184,
+            "std": 0.00254,
+            "mean": 0.0199,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "27": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793628.1666281,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "1.021302",
+            "1.021407",
+            "1.019701",
+            "1.020544",
+            "1.021981"
+        ],
+        "max_difference": [
+            "1.673260",
+            "1.673260",
+            "1.673260",
+            "1.673260",
+            "1.673260"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "14": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793619.3894398,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.623750",
+            "13.630373",
+            "13.613703",
+            "13.620232",
+            "13.610657"
+        ],
+        "max_difference": [
+            "287.553223",
+            "272.863983",
+            "280.458344",
+            "317.775482",
+            "288.552307"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "77": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.7075758,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "73": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793711.1701524,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "60": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793680.2643209,
+        "avg_runtime": -1.0,
+        "other_error": "error: \"attribute 'bias' already exists\"",
+        "runtime_stats": {}
+    },
+    "59": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793680.257653,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 254, 254, 10]), got torch.Size([16, 64, 256, 256, 10])"
+    },
+    "85": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793716.3319876,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 3, 126, 252]), got torch.Size([16, 3, 128, 256])"
+    },
+    "5": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793590.6450255,
+        "avg_runtime": 1.71,
+        "runtime_stats": {
+            "max": 1.72,
+            "min": 1.69,
+            "std": 0.0052,
+            "mean": 1.71,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "34": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793644.7863834,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'instance_norm'"
+    }
+}

@@ -1,0 +1,1581 @@
+{
+    "57": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793200.9056282,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "87": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.7641027,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.182767",
+            "0.182844",
+            "0.182828",
+            "0.182984",
+            "0.182835"
+        ],
+        "max_difference": [
+            "1.877857",
+            "1.881037",
+            "1.957899",
+            "2.011886",
+            "2.244704"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "8": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792748.2679152,
+        "avg_runtime": 42.1,
+        "runtime_stats": {
+            "max": 42.6,
+            "min": 41.6,
+            "std": 0.284,
+            "mean": 42.1,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "79": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793215.139084,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "1": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792742.2145407,
+        "avg_runtime": 2.45,
+        "runtime_stats": {
+            "max": 2.46,
+            "min": 2.45,
+            "std": 0.00199,
+            "mean": 2.45,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "3": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792742.9819617,
+        "avg_runtime": 1.26,
+        "runtime_stats": {
+            "max": 1.78,
+            "min": 1.24,
+            "std": 0.0564,
+            "mean": 1.26,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "51": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.450952,
+        "avg_runtime": 0.0365,
+        "runtime_stats": {
+            "max": 0.0551,
+            "min": 0.033,
+            "std": 0.00314,
+            "mean": 0.0365,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "9": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792752.5347238,
+        "avg_runtime": 3.22,
+        "runtime_stats": {
+            "max": 3.23,
+            "min": 3.21,
+            "std": 0.0044,
+            "mean": 3.22,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "99": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289560.258608,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([]), got torch.Size([1])"
+    },
+    "62": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.4768462,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "22": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.49599,
+        "avg_runtime": 0.0161,
+        "runtime_stats": {
+            "max": 0.0348,
+            "min": 0.0144,
+            "std": 0.00246,
+            "mean": 0.0161,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "13": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.7891374,
+        "avg_runtime": 19.4,
+        "runtime_stats": {
+            "max": 19.8,
+            "min": 19.3,
+            "std": 0.156,
+            "mean": 19.4,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "39": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793182.164584,
+        "avg_runtime": 0.204,
+        "runtime_stats": {
+            "max": 0.215,
+            "min": 0.198,
+            "std": 0.00319,
+            "mean": 0.204,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "54": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.4889283,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "97": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289559.9663842,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([]), got torch.Size([1])"
+    },
+    "98": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289560.138155,
+        "avg_runtime": 0.648,
+        "runtime_stats": {
+            "max": 0.657,
+            "min": 0.645,
+            "std": 0.00212,
+            "mean": 0.648,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "40": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793182.1739388,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.003740",
+            "0.003689",
+            "0.003709",
+            "0.003637",
+            "0.003685"
+        ],
+        "max_difference": [
+            "0.044188",
+            "0.046836",
+            "0.042319",
+            "0.051525",
+            "0.039593"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "61": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.466967,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "88": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.6340907,
+        "avg_runtime": 0.0356,
+        "runtime_stats": {
+            "max": 0.043,
+            "min": 0.0348,
+            "std": 0.000945,
+            "mean": 0.0356,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "38": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793182.1549828,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.008949",
+            "0.008904",
+            "0.008843",
+            "0.008898",
+            "0.009024"
+        ],
+        "max_difference": [
+            "0.056467",
+            "0.054137",
+            "0.053013",
+            "0.055639",
+            "0.060705"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "45": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.1257179,
+        "avg_runtime": 0.455,
+        "runtime_stats": {
+            "max": 0.476,
+            "min": 0.452,
+            "std": 0.00289,
+            "mean": 0.455,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "10": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792753.9065588,
+        "avg_runtime": 7.66,
+        "runtime_stats": {
+            "max": 7.85,
+            "min": 7.04,
+            "std": 0.194,
+            "mean": 7.66,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "43": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.095311,
+        "avg_runtime": 0.904,
+        "runtime_stats": {
+            "max": 0.918,
+            "min": 0.898,
+            "std": 0.00334,
+            "mean": 0.904,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "90": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.6546571,
+        "avg_runtime": 0.408,
+        "runtime_stats": {
+            "max": 0.414,
+            "min": 0.407,
+            "std": 0.00103,
+            "mean": 0.408,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "53": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.4775286,
+        "avg_runtime": 0.0197,
+        "runtime_stats": {
+            "max": 0.0306,
+            "min": 0.0184,
+            "std": 0.00137,
+            "mean": 0.0197,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "86": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.687803,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "11": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.767533,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "12.497765",
+            "12.479383",
+            "12.490019",
+            "12.497104",
+            "12.437319"
+        ],
+        "max_difference": [
+            "101.555153",
+            "102.419273",
+            "103.600449",
+            "109.569115",
+            "106.214493"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "33": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792784.3349342,
+        "avg_runtime": 1.2,
+        "runtime_stats": {
+            "max": 1.21,
+            "min": 1.19,
+            "std": 0.00476,
+            "mean": 1.2,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "68": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793205.418929,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "58": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793200.9196055,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "80": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793215.145999,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "70": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793206.032794,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "83": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.4559243,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "6": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792744.7532952,
+        "avg_runtime": 4.21,
+        "runtime_stats": {
+            "max": 4.24,
+            "min": 4.2,
+            "std": 0.00632,
+            "mean": 4.21,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "55": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.4987195,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "25": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792776.2775238,
+        "avg_runtime": 0.0159,
+        "runtime_stats": {
+            "max": 0.0276,
+            "min": 0.0144,
+            "std": 0.00158,
+            "mean": 0.0159,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "71": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793206.133784,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.455978",
+            "0.455937",
+            "0.456181",
+            "0.456078",
+            "0.456095"
+        ],
+        "max_difference": [
+            "3.177490",
+            "3.403992",
+            "3.273740",
+            "3.249967",
+            "3.196818"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "5": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792744.334032,
+        "avg_runtime": 1.19,
+        "runtime_stats": {
+            "max": 1.21,
+            "min": 1.18,
+            "std": 0.00546,
+            "mean": 1.19,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "42": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793189.2361834,
+        "avg_runtime": 0.0307,
+        "runtime_stats": {
+            "max": 0.0399,
+            "min": 0.0297,
+            "std": 0.00134,
+            "mean": 0.0307,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "52": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.4615512,
+        "avg_runtime": 0.0213,
+        "runtime_stats": {
+            "max": 0.0307,
+            "min": 0.0203,
+            "std": 0.0016,
+            "mean": 0.0213,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "73": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793209.7760916,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "44": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.1098197,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.003530",
+            "0.003651",
+            "0.003711",
+            "0.003721",
+            "0.003623"
+        ],
+        "max_difference": [
+            "0.576682",
+            "0.532031",
+            "0.506885",
+            "0.487250",
+            "0.512610"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "67": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793205.2110937,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "69": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793206.0193887,
+        "avg_runtime": 3.24,
+        "runtime_stats": {
+            "max": 3.49,
+            "min": 3.23,
+            "std": 0.0258,
+            "mean": 3.24,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "89": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.645941,
+        "avg_runtime": 0.255,
+        "runtime_stats": {
+            "max": 0.281,
+            "min": 0.242,
+            "std": 0.00671,
+            "mean": 0.255,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "81": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793218.9479332,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "91": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.661992,
+        "avg_runtime": 0.271,
+        "runtime_stats": {
+            "max": 0.294,
+            "min": 0.257,
+            "std": 0.00701,
+            "mean": 0.271,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "95": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289559.1895106,
+        "avg_runtime": 0.0263,
+        "runtime_stats": {
+            "max": 0.0421,
+            "min": 0.0246,
+            "std": 0.00239,
+            "mean": 0.0263,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "82": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.4437094,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "93": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.6764247,
+        "avg_runtime": 0.486,
+        "runtime_stats": {
+            "max": 0.52,
+            "min": 0.46,
+            "std": 0.0135,
+            "mean": 0.486,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "72": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793206.1476126,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([16, 64, 32, 64, 128]), got torch.Size([16, 32, 32, 64, 128])"
+    },
+    "63": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.5042503,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "7": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792744.7658293,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.980848",
+            "66.896103",
+            "14.505917",
+            "54.093933",
+            "14.478401"
+        ],
+        "max_difference": [
+            "802.175964",
+            "6994941.500000",
+            "1400.645996",
+            "6328773.000000",
+            "1689.418091"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "56": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.5084152,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "17": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.44229,
+        "avg_runtime": 13.7,
+        "runtime_stats": {
+            "max": 13.9,
+            "min": 13.7,
+            "std": 0.0242,
+            "mean": 13.7,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "30": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792777.074938,
+        "avg_runtime": 0.0171,
+        "runtime_stats": {
+            "max": 0.0357,
+            "min": 0.0154,
+            "std": 0.00239,
+            "mean": 0.0171,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "75": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793209.8197908,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "94": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.6832895,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "compilation_error": "Error building extension 'mse_cuda'"
+    },
+    "48": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.161346,
+        "avg_runtime": 0.0201,
+        "runtime_stats": {
+            "max": 0.0347,
+            "min": 0.0193,
+            "std": 0.00158,
+            "mean": 0.0201,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "16": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.8177783,
+        "avg_runtime": 3.21,
+        "runtime_stats": {
+            "max": 3.48,
+            "min": 3.21,
+            "std": 0.0271,
+            "mean": 3.21,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "77": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793210.2375722,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "2": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792742.6194997,
+        "avg_runtime": 2.49,
+        "runtime_stats": {
+            "max": 2.59,
+            "min": 2.39,
+            "std": 0.0435,
+            "mean": 2.49,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "65": {
+        "device": "cuda:0",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793205.0614016,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "12": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.7804282,
+        "avg_runtime": 0.214,
+        "runtime_stats": {
+            "max": 0.225,
+            "min": 0.209,
+            "std": 0.00273,
+            "mean": 0.214,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "28": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792776.947537,
+        "avg_runtime": 0.0165,
+        "runtime_stats": {
+            "max": 0.0399,
+            "min": 0.0154,
+            "std": 0.00245,
+            "mean": 0.0165,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "18": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.4553895,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "72.179161",
+            "72.314377",
+            "72.294159",
+            "72.252754",
+            "72.250465"
+        ],
+        "max_difference": [
+            "454.679047",
+            "469.670593",
+            "483.668365",
+            "445.159546",
+            "449.040558"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "46": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.1395547,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "0.005887",
+            "0.005880",
+            "0.005881",
+            "0.005884",
+            "0.005892"
+        ],
+        "max_difference": [
+            "0.694838",
+            "0.825283",
+            "0.872502",
+            "0.817359",
+            "0.815633"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "29": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792776.9899457,
+        "avg_runtime": 0.0159,
+        "runtime_stats": {
+            "max": 0.0285,
+            "min": 0.0144,
+            "std": 0.00157,
+            "mean": 0.0159,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "24": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.5145922,
+        "avg_runtime": 0.443,
+        "runtime_stats": {
+            "max": 0.449,
+            "min": 0.439,
+            "std": 0.00161,
+            "mean": 0.443,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "27": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792776.6497476,
+        "avg_runtime": 0.0163,
+        "runtime_stats": {
+            "max": 0.0258,
+            "min": 0.0154,
+            "std": 0.00114,
+            "mean": 0.0163,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "59": {
+        "device": "cuda:2",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.153819,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "49": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.0869374,
+        "avg_runtime": 0.02,
+        "runtime_stats": {
+            "max": 0.0319,
+            "min": 0.0184,
+            "std": 0.00149,
+            "mean": 0.02,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "15": {
+        "device": "cuda:6",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.806978,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "13.614381",
+            "13.611748",
+            "13.614278",
+            "13.612123",
+            "13.616609"
+        ],
+        "max_difference": [
+            "277.032104",
+            "288.201965",
+            "314.341370",
+            "306.833130",
+            "310.460632"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "26": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792776.6356943,
+        "avg_runtime": 0.0171,
+        "runtime_stats": {
+            "max": 0.0297,
+            "min": 0.0164,
+            "std": 0.00165,
+            "mean": 0.0171,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "96": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289559.9592786,
+        "avg_runtime": 0.0364,
+        "runtime_stats": {
+            "max": 0.0552,
+            "min": 0.0348,
+            "std": 0.0024,
+            "mean": 0.0364,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "34": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792882.1168475,
+        "avg_runtime": 908.0,
+        "runtime_stats": {
+            "max": 917.0,
+            "min": 889.0,
+            "std": 8.05,
+            "mean": 908.0,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "36": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793182.1315098,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "avg_difference": [
+            "nan",
+            "nan",
+            "nan",
+            "nan",
+            "nan"
+        ],
+        "max_difference": [
+            "nan",
+            "nan",
+            "nan",
+            "nan",
+            "nan"
+        ],
+        "correctness_issue": "Output mismatch",
+        "correctness_trials": "(0 / 5)"
+    },
+    "4": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792743.465007,
+        "avg_runtime": 4.69,
+        "runtime_stats": {
+            "max": 4.7,
+            "min": 4.68,
+            "std": 0.00429,
+            "mean": 4.69,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "64": {
+        "device": "cuda:7",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.513313,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "19": {
+        "device": "cuda:2",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.4660842,
+        "avg_runtime": 0.0203,
+        "runtime_stats": {
+            "max": 0.0329,
+            "min": 0.0194,
+            "std": 0.00156,
+            "mean": 0.0203,
+            "device": "cuda:2",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "41": {
+        "device": "cuda:0",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793188.803045,
+        "avg_runtime": 0.0188,
+        "runtime_stats": {
+            "max": 0.0317,
+            "min": 0.0175,
+            "std": 0.00145,
+            "mean": 0.0188,
+            "device": "cuda:0",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "74": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793209.7884178,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "31": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792777.190842,
+        "avg_runtime": 0.0166,
+        "runtime_stats": {
+            "max": 0.0316,
+            "min": 0.0154,
+            "std": 0.00215,
+            "mean": 0.0166,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "92": {
+        "device": "cuda:5",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1731289555.669208,
+        "cuda_error": "CUDA Error: CUDA error: an illegal memory access was encountered\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n",
+        "avg_runtime": -1.0,
+        "runtime_stats": {}
+    },
+    "100": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1737681908.197026,
+        "avg_runtime": -1.0,
+        "runtime_stats": {},
+        "correctness_issue": "Output shape mismatch: Expected torch.Size([]), got torch.Size([1])"
+    },
+    "78": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793215.128162,
+        "avg_runtime": 39.5,
+        "runtime_stats": {
+            "max": 40.2,
+            "min": 38.7,
+            "std": 0.416,
+            "mean": 39.5,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "84": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.504155,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "14": {
+        "device": "cuda:5",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792766.7978997,
+        "avg_runtime": 5.39,
+        "runtime_stats": {
+            "max": 5.66,
+            "min": 4.76,
+            "std": 0.233,
+            "mean": 5.39,
+            "device": "cuda:5",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "32": {
+        "device": "cuda:7",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792777.2049294,
+        "avg_runtime": 0.0151,
+        "runtime_stats": {
+            "max": 0.0257,
+            "min": 0.0143,
+            "std": 0.00123,
+            "mean": 0.0151,
+            "device": "cuda:7",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "47": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793193.1510627,
+        "avg_runtime": 0.0273,
+        "runtime_stats": {
+            "max": 0.0389,
+            "min": 0.0256,
+            "std": 0.00146,
+            "mean": 0.0273,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "21": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.4860568,
+        "avg_runtime": 0.0156,
+        "runtime_stats": {
+            "max": 0.0317,
+            "min": 0.0143,
+            "std": 0.00257,
+            "mean": 0.0156,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "76": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793210.225241,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "66": {
+        "device": "cuda:1",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793205.2015479,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "23": {
+        "device": "cuda:6",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.505189,
+        "avg_runtime": 0.0385,
+        "runtime_stats": {
+            "max": 0.0451,
+            "min": 0.0369,
+            "std": 0.00137,
+            "mean": 0.0385,
+            "device": "cuda:6",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "37": {
+        "device": "cuda:4",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793182.1453867,
+        "avg_runtime": 1.19,
+        "runtime_stats": {
+            "max": 1.37,
+            "min": 1.18,
+            "std": 0.0181,
+            "mean": 1.19,
+            "device": "cuda:4",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "50": {
+        "device": "cuda:1",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793197.4377751,
+        "avg_runtime": 0.0195,
+        "runtime_stats": {
+            "max": 0.0297,
+            "min": 0.0184,
+            "std": 0.00155,
+            "mean": 0.0195,
+            "device": "cuda:1",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "20": {
+        "device": "cuda:3",
+        "correct": true,
+        "compiled": true,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730792772.4763348,
+        "avg_runtime": 0.0157,
+        "runtime_stats": {
+            "max": 0.0256,
+            "min": 0.0144,
+            "std": 0.00118,
+            "mean": 0.0157,
+            "device": "cuda:3",
+            "hardware": "NVIDIA L40S",
+            "num_trials": 100
+        },
+        "correctness_trials": "(5 / 5)"
+    },
+    "85": {
+        "device": "cuda:4",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793219.5185833,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    },
+    "60": {
+        "device": "cuda:3",
+        "correct": false,
+        "compiled": false,
+        "hardware": "NVIDIA L40S",
+        "timestamp": 1730793201.4055996,
+        "avg_runtime": -1.0,
+        "other_error": "error: name 'math' is not defined",
+        "runtime_stats": {}
+    }
+}
